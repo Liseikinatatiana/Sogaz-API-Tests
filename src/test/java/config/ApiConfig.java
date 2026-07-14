@@ -5,7 +5,7 @@ import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.BeforeSuite;
 
-public class Apiconfig {
+public class ApiConfig {
     public static final String BASE_URL = "https://api.sogaz.ru";
     @BeforeSuite
     public void setup() {
