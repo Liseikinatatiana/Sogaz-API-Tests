@@ -15,6 +15,6 @@ public class PolicyResponse {
     private String insuranceType;
     private String premium;
     private String validUntil;
-    private String found;
+    private boolean found;
     private String message;
 }
